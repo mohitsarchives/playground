@@ -13,7 +13,7 @@ name = input("What's your name? ").strip().title()
 # Split user's name
 first, last = name.split(" ")
 
-print("Hello,", name)
+print("Hello,", first)
 
 # print parameters including sep = ' ' and end = "\n"
 # print("Hello, ", name, sep = '', end = "\n");
