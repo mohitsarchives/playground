@@ -1,5 +1,15 @@
 # Ask a user for their name
-name = input("What's your name? ").strip().title()
+from unicodedata import name
+
+
+def main():
+    name = input("What's your name? ")
+    hello()
+
+def hello():
+    print("Hello,", name)
+
+main()
 
 # Remove whitespace from str
 #name = name.strip().title()
@@ -11,9 +21,9 @@ name = input("What's your name? ").strip().title()
 # name = name.title()
 
 # Split user's name
-first, last = name.split(" ")
+# first, last = name.split(" ")
 
-print("Hello,", first)
+# print("Hello,", first)
 
 # print parameters including sep = ' ' and end = "\n"
 # print("Hello, ", name, sep = '', end = "\n");

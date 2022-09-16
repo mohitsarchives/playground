@@ -1,6 +1,9 @@
+def main():
+    x = int(input("Enter a number: "))
+    print("The square of the number is:", square(x))
 
-# Cast input into an integer
-x = int(input("Enter the first number: "))
-y = int(input("Enter the second number: "))
+def square(x):
+    return pow(x, 2)
 
-print(f"The result is: {x +  y}")
+
+main()
