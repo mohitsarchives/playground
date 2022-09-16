@@ -5,5 +5,4 @@ def main():
 def square(x):
     return pow(x, 2)
 
-
 main()

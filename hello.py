@@ -1,7 +1,6 @@
 # Ask a user for their name
 from unicodedata import name
 
-
 def main():
     name = input("What's your name? ")
     hello()
