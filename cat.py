@@ -1,4 +1,17 @@
-i = 3
-while i > 0:
-    print("Meow")
-    i = i - 1
+def main():
+    number = get_number()
+    meow(number)
+
+def get_number():
+    while True:
+        n = int(input("What's the number? "))
+        if n > 0:
+            break
+    return n
+
+def meow(n):
+    for _ in range(n):
+        print("Meow")
+
+if __name__ == "__main__":
+    main()
